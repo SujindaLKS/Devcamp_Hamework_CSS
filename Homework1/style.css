@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    width: 190px;
+    margin-left: auto;
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav li:first-child{
+    margin: 10px 100px 10px 300px;
+}
+
+nav li:first-child img{
+    height: 80px;
+    color: white;
+}
+
+nav li:last-child{
+    margin: 10px 320px 10px 100px;
+    text-align: left;
+}
+
+.secone{
+    background-image: url('img/background2.jpg');
+    background-size: cover;
+    height: 95vh;
+}
+
+.navcontact{
+    height: 200px;
+    width: 50px;
+    transform: translate(1340px, -125px);
+}
+
+.secone .t-border{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-bottom-right-radius: 30px;
+    transform: translate(500px, -50px);
+}
+
+.secone .t-border h1{
+    margin-left: -100px;
+    color: white;
+    font-size: 50px;
+}
+
+.secone .t-border p{
+    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.sectwo{
+    height: 650px;
+}
+
+.sectwo .imgone img{
+    height: 500px;
+    width: 525px;
+    transform: translate(420px, -50px);
+}
+
+.sectwo .imgtwo{
+    height: 100px;
+    width: 60px;
+    background-color: rgb(217, 255, 0);
+    transform: translate(945px, -400px);
+}
+
+.sectwo .sectwo-t{
+    height: 355px;
+    width: 600px;
+    transform: translate(1025px, -510px);
+}
+
+.sectwo .sectwo-t h1{
+    font-size: 40px;
+}
+
+.sectwo .sectwo-t p{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.cards .card{
+    margin: auto;
+}
+
+.cards .card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.cards .card .head h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cards .card .content p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}

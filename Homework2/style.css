@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 500px;
+}
+
+nav li{
+    margin-left: auto;
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lione{
+    width: 200px;
+    height: 84px;
+    margin: 0px;
+    background-color: rgb(211, 211, 211);
+}
+
+.litwo{
+    width: 200px;
+    margin: 0px;
+    background-color: white;
+}
+
+.litwo img{
+    height: 80px;
+}
+
+.secone{
+    background-color: rgb(0, 255, 128);
+    background-size: cover;
+    height: 95vh;
+}
+
+.box-img-top img{
+    width: 1450px;
+    height: 725px;
+}
+
+.secone .t-border h1{
+    margin-left: -100px;
+    color: white;
+    font-size: 50px;
+}
+
+.secone .t-border p{
+    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+/* .sectwo{
+    height: 650px;
+} */
+
+.secone .imgtwo{
+    height: 355px;
+    width: 100px;
+    opacity: 0.7;
+    background-color: rgb(0, 255, 128);
+    transform: translate(1100px, -630px);
+}
+
+.secone .sectwo-t{
+    height: 355px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translate(1200px, -985px);
+}
+
+.secone .sectwo-t h1{
+    padding-left: 40px;
+    padding-top: 70px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+
+.secone .sectwo-t p{
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.secone .sectwo-t button{
+    width: 180px;
+    height: 60px;
+    padding: 5px 20px;
+    border: 0px solid;
+    background-color: rgb(0, 255, 128);
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translate(200px, 90px);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.cards .card{
+    margin: auto;
+}
+
+.cards .card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.cards .card .head h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cards .card .content p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards .card button{
+    width: 180px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 5px 20px;
+    align-items: center;
+    border: 0px solid;
+    background-color: rgb(0, 255, 128);
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box-img-buttom img{
+    width: 980px;
+    height: 700px;
+}
+
+.sectwo-t{
+    height: 355px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translate(980px, -885px);
+}
+
+.sectwo-t h1{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+.sectwo-t h2{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.sectwo-t p{
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.sectwo-t button{
+    width: 180px;
+    height: 60px;
+    padding: 5px 20px;
+    border: 0px solid;
+    background-color: rgb(0, 255, 128);
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translate(200px, 15px);
+}
+
+.imgtwo{
+    height: 355px;
+    width: 100px;
+    opacity: 0.7;
+    background-color: rgb(0, 255, 128);
+    transform: translate(880px, -530px);
+}
